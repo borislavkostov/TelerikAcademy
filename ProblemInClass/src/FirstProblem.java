@@ -1,9 +1,15 @@
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.security.Signer;
 import java.util.Calendar;
 import java.util.Locale;
+import java.util.Scanner;
 
 public class FirstProblem {
 
-	public static void main(String[] args) 
+	public static void main(String[] args) throws IOException 
 	{
 		String name = "Pesho";
 		int age= 18;
@@ -43,6 +49,27 @@ public class FirstProblem {
 		System.out.format(Locale.CHINA, "%tB %te, %tY%n", c, c, c);
 		System.out.format("%tl:%tM %tp%n", c, c, c);
 		System.out.format("%tD%n", c);
+		System.out.println();
+		//How to read ?
+		//(int) 97 -> (char) 'a'
+		//InputStreamReader reader= new InputStreamReader(System.in);
+		//char charCode=(char)reader.read();
+		//System.out.println(charCode);
+		Scanner scanner=new Scanner (System.in);
+		String line=scanner.next();
+		int number=scanner.nextInt();
+		System.out.println(number+1);
+		String inputFilePath="D:\\bum.txt";
+		File inputFile=new File(inputFilePath);
+		Scanner fscanner=new Scanner (inputFile);
+		
+		
+		
+		
+		
+	
+				
+		
 		
 		
 		
