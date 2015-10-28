@@ -10,7 +10,9 @@ public class MethodsInClass
 		//String name =scanner.next();
 		//printName(name);
 		//System.out.println();
+		//
 		printLogo();
+		//
 		System.out.println("Enter number");
 		String numberAsString =scanner.nextLine();
 		int number=stringToInt(numberAsString);
