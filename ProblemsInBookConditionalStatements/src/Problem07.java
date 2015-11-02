@@ -7,7 +7,7 @@ public class Problem07
 	{
 		Scanner scanner=new Scanner (System.in);
 		int[]numbers=new int[3];
-		int sum=Integer.MAX_VALUE;
+		int sum=Integer.MIN_VALUE;
 		for (int i = 0; i < numbers.length; i++) 
 		{
 			numbers[i]=scanner.nextInt();
