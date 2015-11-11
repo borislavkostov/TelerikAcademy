@@ -15,8 +15,7 @@ public class Problem06
 		{
 			numbers[i]=scanner.nextInt();
 		}
-		//bubble sort
-		BubbleSort(numbers);
+		BubbleSort(numbers);//Bubble sort
 		for (int i = numbers.length-1; i>=K; i--) 
 		{
 			System.out.print(numbers[i]+" ");
