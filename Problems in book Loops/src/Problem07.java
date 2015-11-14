@@ -21,6 +21,7 @@ public class Problem07
             {
                 resultDivision *=i;
             }
+            //-K!
             System.out.println(resultDivision*-1);
 		}
 	}
