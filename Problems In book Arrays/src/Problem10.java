@@ -18,15 +18,19 @@ public class Problem10
 				numbers[j][i]=counter;
 			}
 		}
-		for (int i = 0; i < numbers.length; i++) 
+		PrintMatrix(numbers);
+
+	}
+	public static void PrintMatrix(int[][]array)
+	{
+		for (int i = 0; i < array.length; i++) 
 		{
-			for (int j = 0; j < numbers[0].length; j++) 
+			for (int j = 0; j < array[0].length; j++) 
 			{
-				System.out.print(numbers[i][j]);			
+				System.out.print(array[i][j]+" ");			
 			}
 			System.out.println();
 		}
 
 	}
-
 }
